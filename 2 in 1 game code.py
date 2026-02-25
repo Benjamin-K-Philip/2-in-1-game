@@ -1,7 +1,3 @@
-
-
-
-
 while True:
     print("\nWelcome to the 2 in 1 game")
     print("\nMenu Of 2 different games")
@@ -96,3 +92,4 @@ while True:
        break
  
     
+
