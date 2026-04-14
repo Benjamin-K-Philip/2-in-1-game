@@ -22,4 +22,13 @@ The script operates through a centralized while True loop, following these logic
 
 ---
 
+## Features <br>
+Persistent Gameplay: The use of while True ensures the user isn't kicked out after just one round.
 
+Dynamic Storytelling: The Mad Libs generator creates unique (and often nonsensical) stories based entirely on user-provided vocabulary.
+
+Automated Opponent: The Rock Paper Scissors game features a randomized AI opponent, making the game unpredictable.
+
+Comprehensive Scoreboard: Tracks wins and losses in real-time during the Rock Paper Scissors sessions and declares an overall winner at the end.
+
+Input Flexibility: The "continue" prompt accounts for various user inputs (lowercase, uppercase, or full words like "No").
