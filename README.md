@@ -42,9 +42,9 @@ The script operates through a centralized while True loop, following these logic
 
   - **Game 1 (Mad Libs):**
 
-➤ Sequential flow that gathers 13 unique inputs.
+    ➤ Sequential flow that gathers 13 unique inputs.
 
-➤ Combines inputs into a single story string using concatenation.
+    ➤ Combines inputs into a single story string using concatenation.
 
 Game 2 (Rock Paper Scissors):
 
