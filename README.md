@@ -40,7 +40,7 @@ The script operates through a centralized while True loop, following these logic
 
   - **User Interface (Menu):** At the top of the loop, print statements act as a basic UI, presenting the available games and using an input function to capture the user’s choice.
 
-  - **Mad Libs Component (Branch 1):** This section is structured as a sequential input-to-output flow. It collects 13 different variables from the user and immediately processes them into a single formatted string.
+  - **Mad Libs Generator (Branch 1):** This section is structured as a sequential input-to-output flow. It collects 13 different variables from the user and immediately processes them into a single formatted string.
 
   - **Rock Paper Scissors Component (Branch 2):**
 
