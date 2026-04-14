@@ -12,7 +12,7 @@ The script operates through a centralized while True loop, following these logic
 
   - **Game Logic Execution:**
 
-         ➤ <b> Mad Libs Generator: If choice "1" is picked, the code prompts for a series of strings (verbs, nouns, etc.). It then uses string concatenation to plug those variables into a pre-written    story template and prints the result.
+         ➤ Mad Libs Generator: If choice "1" is picked, the code prompts for a series of strings (verbs, nouns, etc.). It then uses string concatenation to plug those variables into a pre-written story template and prints the result.
 
          ➤ Rock Paper Scissors: If choice "2" is picked, the code enters a secondary while loop. It uses the random.choice() method to let the computer pick from a list (["R", "P", "S"]). It compares the computer's choice against the user's input to determine a winner based on standard game rules.
 
