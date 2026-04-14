@@ -27,7 +27,7 @@ The script operates through a centralized while True loop, following these logic
 
   - **Dynamic Storytelling:** The Mad Libs generator creates unique (and often nonsensical) stories based entirely on user-provided vocabulary.
 
-  - **Automated Opponent:** The Rock Paper Scissors game features a randomized AI opponent, making the game unpredictable.
+  - **Automated Opponent:** The Rock Paper Scissors game features a randomized AI opponent(i.e. a user going against the system), making the game unpredictable.
 
   - **Comprehensive Scoreboard:** Tracks wins and losses in real-time during the Rock Paper Scissors sessions and declares an overall winner at the end.
 
@@ -36,26 +36,26 @@ The script operates through a centralized while True loop, following these logic
 --- 
 
 ## Project Structure  <br>
-  - **Main Engine:** A while True loop that keeps the program running until the user chooses to quit.
+  - **Initialization & Main Control Loop:** The entire script is wrapped in a while True loop. This acts as the "engine" of the program, ensuring it stays active until the user explicitly chooses to exit.
 
-  - **Menu System:** Displays game options and captures the user's choice via input().
+  - **User Interface (Menu):** At the top of the loop, print statements act as a basic UI, presenting the available games and using an input function to capture the user’s choice.
 
-  - **Game 1 (Mad Libs):**
+  - **Mad Libs Component (Branch 1):** This section is structured as a sequential input-to-output flow. It collects 13 different variables from the user and immediately processes them into a single formatted string.
 
-    ➤ Sequential flow that gathers 13 unique inputs.
+  - **Rock Paper Scissors Component (Branch 2):**
 
-    ➤ Combines inputs into a single story string using concatenation.
+    ➤ **Setup:** Initializes score counters (user_score, computer_score) and imports the random module.
 
-Game 2 (Rock Paper Scissors):
+    ➤ **Game Loop:** A nested while loop runs for a specific number of "chances" defined by the user.
 
-Setup: Sets up score tracking and imports the random module.
+    ➤ **Conditional Logic:** A series of if/elif/else statements compare the user's string input against the computer's random choice.
 
-Internal Loop: Runs a user-defined number of rounds.
+    ➤ **Final Result Logic:** After the sub-loop finishes, a final comparison determines the overall winner based on the accumulated scores.
 
-Logic: Uses if/elif/else to compare moves and update scores.
+  - **Error Handling:** A "catch-all" else statement handles cases where a user might enter a menu choice other than 1 or 2.
 
-Results: Compares final scores to declare an overall winner or tie.
+  - **Exit Protocol:** The final block of code evaluates a "repeat" input. It uses logical or operators to catch multiple variations of "no" to break the main loop and close the program gracefully.
 
-Input Validation: An else block to catch invalid menu selections.
+---
 
-Exit Logic: A flexible check for "No" (handling various formats) to break the loop and end the session.
+## Output
