@@ -60,5 +60,6 @@ The script operates through a centralized while True loop, following these logic
 
 ## Output
 <img width="1253" height="487" alt="image" src="https://github.com/user-attachments/assets/60069a65-7e71-45ac-8725-653238786224" />
+<img width="1244" height="602" alt="image" src="https://github.com/user-attachments/assets/42a1a564-59fc-46e5-bd77-80001bdf6246" />
 
 
