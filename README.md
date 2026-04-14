@@ -62,6 +62,7 @@ The script operates through a centralized while True loop, following these logic
 <img width="1253" height="487" alt="image" src="https://github.com/user-attachments/assets/60069a65-7e71-45ac-8725-653238786224" />
 <img width="1244" height="602" alt="image" src="https://github.com/user-attachments/assets/42a1a564-59fc-46e5-bd77-80001bdf6246" />
 <img width="1246" height="557" alt="image" src="https://github.com/user-attachments/assets/5136efc3-c03f-47bf-940d-7e1488dde6ec" />
+<img width="1245" height="175" alt="image" src="https://github.com/user-attachments/assets/5e5b9b74-5026-4afd-9ccb-761ffc766c21" />
 
 
 
