@@ -59,3 +59,6 @@ The script operates through a centralized while True loop, following these logic
 ---
 
 ## Output
+<img width="1253" height="487" alt="image" src="https://github.com/user-attachments/assets/60069a65-7e71-45ac-8725-653238786224" />
+
+
